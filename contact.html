@@ -1,47 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <nav class="navbar navbar-light bg-light">
-        <span class="navbar-brand mb-0 h1">Shivan Desai</span>
-    <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
+  
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Shivan Desai</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="#">About</a></li>
+        <li><a href="/Responsive_Portfolio/portfolio.html">Portfolio</a></li>
+        <li><a href="/Responsive_Portfolio/contact.html">Contact</a></li>
       </ul>
-    </nav>
-    <h2>Contact</h2>
-    <form class="was-validated">
-        <div class="form-row">
-            <div class="col-md-4 mb-3">
-              <label for="validationServer01">Name</label>
-              <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
-              <div class="valid-feedback">
-                Looks good!
-              </div>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-              </div>
-        <div class="mb-3">
-          <label for="validationTextarea">Message</label>
-          <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" required></textarea>
-          <div class="invalid-feedback">
-            Please enter a message in the textarea.
-          </div>
-        </div>
-        </form>
+    </div>
+  </nav>
+  <body>
+  <div class="container"  id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="row">
+      <div class="col-sm-4">
+        <figure class="figure thumbnail">
+          <a href="https://www.linkedin.com/in/shivan-desai-56a26915a/"><img src="Image from iOS (5).jpg" class="figure-img img-fluid img-rounded" alt="Screenshot of the North County Landscape Website, Designed and Developed by Adam Krueger.">
+          <figcaption class="figure-caption"><strong>Linkedin</strong><br /> <small>Password Generator</small></figcaption>
+        </figure>
+      </div>
+</body>
+</html>
+
+
 </body>
 </html>
